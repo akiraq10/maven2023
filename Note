@@ -1,9 +1,11 @@
 Isolate Webdriver use for the TestNG Parallel
- - In case use parallel for methods the WebDriver should be delacre inside each method
- - In case user parallel for classes the WebDriver just delacre in clase
+ - In case use parallel for methods the WebDriver should be declared inside each method
+ - In case use parallel for classes the WebDriver just declares in class
+Youtube channel: SDET PRO
 
-Read Propertiles File via Onwer API
- - The properties file must created in '/resourse 
+Read Properties File via Onwer API
+ - The properties file must created in '/resource' folder 
+ Source: https://eliasnogueira.com/easily-manage-properties-files-in-java-with-owner/
 
 MVN surefire
   - mvn clean test -Dfilename="path xml" (the filename is  <suiteXmlFiles>${filename}</suiteXmlFiles> in POM.xml file 
